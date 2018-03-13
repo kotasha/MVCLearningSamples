@@ -1,0 +1,75 @@
+﻿@model Kotacs.Libraries.SOA.Contracts.Data.Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Customer Details of @ViewBag.customerid</h2>
+<table border="1">
+    <tbody>
+        <tr>
+            <td>
+                Customer Id
+            </td>
+            <td>
+                @Model.Customerid
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Name
+            </td>
+            <td>
+                @Model.CustomerName
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                 address
+            </td>
+            <td>
+                @Model.Address
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                 EmailId
+            </td>
+            <td>
+                @Model.EmailId
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Phone Number
+            </td>
+            <td>
+                @Model.PhoneNumber
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Credit Limit
+            </td>
+            <td>
+                @Model.CreditLimit
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Active Status
+            </td>
+            <td>
+                @Model.ActiveStatus
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+<br />
+@Html.ActionLink("> Back","Index","Customer");

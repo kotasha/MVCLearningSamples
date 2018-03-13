@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Using TempData, Redirections </h2>
+
+<table border="1">
+    <tbody>
+        <tr>
+            <td>
+                View Data Message from Index Action
+            </td>
+            <td>
+                @ViewData["IndexViewData"]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                View Data Message from Index Action
+            </td>
+            <td>
+                @ViewBag.ViewBagIndexMessage
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Temp Data Message from Index Action
+            </td>
+            <td>
+                @TempData["IndexViewTempData"]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                View Data Message from Index Action
+            </td>
+            <td>
+                @ViewData["Action2ViewData"]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                View Data Message from Index Action
+            </td>
+            <td>
+                @ViewData["Action2ViewData"]
+            </td>
+        </tr>
+           <tr>
+            <td>
+                Temp Data Message from Action2 Action
+            </td>
+            <td>
+                @TempData.Peek("Action2ViewTempData")
+                @*@TempData["Action2ViewTempData"]*@
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@Html.ActionLink("Action2","Action2","Redirect")
+@Html.ActionLink("Action3","Action3","Redirect")

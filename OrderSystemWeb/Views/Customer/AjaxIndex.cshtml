@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>AjaxIndex</title>
+    <link href="../../Content/Site.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.7.1.min.js"></script>
+    <script src="../../Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<script type="text/javascript">
+    function handleBegin()
+    {
+        $("#status-container").html("Loading please wait")
+    }
+    function handleSuccess(result)
+    {
+        $("#status-container").hide("slow", function () {$("#result-container").html(result) } )
+    }
+    function handleSuccess2(result)
+    {
+        $("#status-container").hide("slow",function(){$("#customer-details-container").html(result)})
+    }
+    
+</script>
+</head>
+<body>
+    <div id="status-container">
+    </div>
+    <br />
+    <div>
+        @Ajax.ActionLink("Load Customers", "LoadCustomers", "Customer", new AjaxOptions { HttpMethod="GET",OnBegin="handleBegin",OnSuccess="handleSuccess"})
+    </div>
+    <div id="result-container">
+    </div>
+        <div id="customer-details-container">
+    </div>
+    <div id="container">
+        <input type="button" id="btnLoad" value="Load Data" name="LoadData" />
+    </div>
+   
+</body>
+</html>

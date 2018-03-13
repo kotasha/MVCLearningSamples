@@ -1,0 +1,40 @@
+﻿
+@model IEnumerable<Kotacs.Libraries.SOA.Contracts.Data.Order>
+
+@{
+    ViewBag.Title = "OrderDetails";
+    var webGrid = new WebGrid(source: Model,canPage:true,canSort: default(bool));
+}
+<link href="../../Content/Web-GridStyles.css" rel="stylesheet" />
+<h2>Order Details of Customer @ViewBag.customerId</h2>
+
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <div id="maincontent">
+                    @webGrid.GetHtml(
+                        tableStyle: "webgrid",
+                        headerStyle: "webgrid-header",
+                        footerStyle: "webgrid-footer",
+                        rowStyle: "webgrid-row-style",
+                        alternatingRowStyle: "webgrid-alternating-row",
+                        selectedRowStyle: "webgrid-selected-row",
+                        caption: "Internet Order Details",
+                        displayHeader: true,
+                        columns: webGrid.Columns(
+                            webGrid.Column(columnName: "OrderId", header: "Order #"),
+                            webGrid.Column(columnName: "CustomerId", header: "Customer #"),
+                            webGrid.Column(columnName: "BillingAddress", header: "Billing Address"),
+                            webGrid.Column(columnName: "NoOfUnits", header: "# Of Units"),
+                            webGrid.Column(columnName: "OrderValue", header: "Order Value")))
+
+                </div>
+            </td>
+            <td>
+                <img src='@Url.Action("OrderDetailsChart", "Order", new { customerId = ViewBag.CustomerId })' alt="Order Chart" />
+            </td>
+        </tr>
+    </tbody>
+
+</table>
