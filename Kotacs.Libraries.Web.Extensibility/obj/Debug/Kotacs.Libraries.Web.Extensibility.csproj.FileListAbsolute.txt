@@ -1,0 +1,14 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Kotacs.Libraries.Web.Extensibility.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Kotacs.Libraries.Web.Extensibility.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.csprojResolveAssemblyReference.cache
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.pdb
