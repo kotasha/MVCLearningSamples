@@ -1,0 +1,7 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Business.Interfaces\bin\Debug\Kotacs.Libraries.Business.Interfaces.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Business.Interfaces\bin\Debug\Kotacs.Libraries.Business.Interfaces.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Business.Interfaces\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Business.Interfaces\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Business.Interfaces\obj\Debug\Kotacs.Libraries.Business.Interfaces.csprojResolveAssemblyReference.cache
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Business.Interfaces\obj\Debug\Kotacs.Libraries.Business.Interfaces.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Business.Interfaces\obj\Debug\Kotacs.Libraries.Business.Interfaces.pdb

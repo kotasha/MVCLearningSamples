@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThomsonTrainingDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ThomsonTrainingDBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="bonuses" EntityType="ThomsonTrainingDBModel.bonus" />
+    <EntitySet Name="Categories" EntityType="ThomsonTrainingDBModel.Category" />
+    <EntitySet Name="CustomerCustomerDemoes" EntityType="ThomsonTrainingDBModel.CustomerCustomerDemo" />
+    <EntitySet Name="CustomerDemographics" EntityType="ThomsonTrainingDBModel.CustomerDemographic" />
+    <EntitySet Name="Customers" EntityType="ThomsonTrainingDBModel.Customer" />
+    <EntitySet Name="DEPARTMENTs" EntityType="ThomsonTrainingDBModel.DEPARTMENT" />
+    <EntitySet Name="EMPLOYEEs" EntityType="ThomsonTrainingDBModel.EMPLOYEE" />
+    <EntitySet Name="Employees1" EntityType="ThomsonTrainingDBModel.Employee1" />
+    <EntitySet Name="EmployeeTerritories" EntityType="ThomsonTrainingDBModel.EmployeeTerritory" />
+    <EntitySet Name="NewCustomers" EntityType="ThomsonTrainingDBModel.NewCustomer" />
+    <EntitySet Name="NewOrder_Details" EntityType="ThomsonTrainingDBModel.NewOrder_Detail" />
+    <EntitySet Name="NewOrders" EntityType="ThomsonTrainingDBModel.NewOrder" />
+    <EntitySet Name="Orders" EntityType="ThomsonTrainingDBModel.Order" />
+    <EntitySet Name="Products" EntityType="ThomsonTrainingDBModel.Product" />
+    <EntitySet Name="PROJECTs" EntityType="ThomsonTrainingDBModel.PROJECT" />
+    <EntitySet Name="PROJECT_PARTICIPATION" EntityType="ThomsonTrainingDBModel.PROJECT_PARTICIPATION" />
+    <EntitySet Name="Regions" EntityType="ThomsonTrainingDBModel.Region" />
+    <EntitySet Name="ROLEs" EntityType="ThomsonTrainingDBModel.ROLE" />
+    <EntitySet Name="SALARYGRADEs" EntityType="ThomsonTrainingDBModel.SALARYGRADE" />
+    <EntitySet Name="Shippers" EntityType="ThomsonTrainingDBModel.Shipper" />
+    <EntitySet Name="Suppliers" EntityType="ThomsonTrainingDBModel.Supplier" />
+    <EntitySet Name="Territories" EntityType="ThomsonTrainingDBModel.Territory" />
+    <AssociationSet Name="FK__Orders__Customer__1367E606" Association="ThomsonTrainingDBModel.FK__Orders__Customer__1367E606">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <FunctionImport Name="uspGetCustomers" ReturnType="Collection(ThomsonTrainingDBModel.uspGetCustomers_Result)">
+      <Parameter Name="customerName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="uspGetOrders" ReturnType="Collection(ThomsonTrainingDBModel.uspGetOrders_Result)">
+      <Parameter Name="customerId" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="bonus">
+    <Key>
+      <PropertyRef Name="ename" />
+      <PropertyRef Name="job" />
+    </Key>
+    <Property Name="ename" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="job" Type="String" Nullable="false" MaxLength="9" Unicode="false" FixedLength="false" />
+    <Property Name="sal" Type="Decimal" Precision="7" Scale="2" />
+    <Property Name="comm" Type="Decimal" Precision="7" Scale="2" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="CustomerCustomerDemo">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="CustomerTypeID" />
+    </Key>
+    <Property Name="CustomerID" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="CustomerTypeID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="CustomerDemographic">
+    <Key>
+      <PropertyRef Name="CustomerTypeID" />
+    </Key>
+    <Property Name="CustomerTypeID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="CustomerDesc" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="CustomerName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="EmailId" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="CreditLimit" Type="Int32" />
+    <Property Name="ActiveStatus" Type="Boolean" />
+    <NavigationProperty Name="Orders" Relationship="ThomsonTrainingDBModel.FK__Orders__Customer__1367E606" FromRole="Customers" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="DEPARTMENT">
+    <Key>
+      <PropertyRef Name="deptno" />
+    </Key>
+    <Property Name="deptno" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="14" Unicode="false" FixedLength="false" />
+    <Property Name="location" Type="String" MaxLength="13" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="EMPLOYEE">
+    <Key>
+      <PropertyRef Name="empno" />
+    </Key>
+    <Property Name="empno" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="job" Type="String" MaxLength="9" Unicode="false" FixedLength="false" />
+    <Property Name="boss" Type="Int32" />
+    <Property Name="hiredate" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="salary" Type="Decimal" Precision="7" Scale="2" />
+    <Property Name="comm" Type="Decimal" Precision="7" Scale="2" />
+    <Property Name="deptno" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Employee1">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+      <PropertyRef Name="LastName" />
+      <PropertyRef Name="FirstName" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Title" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="TitleOfCourtesy" Type="String" MaxLength="25" Unicode="true" FixedLength="false" />
+    <Property Name="BirthDate" Type="DateTime" Precision="3" />
+    <Property Name="HireDate" Type="DateTime" Precision="3" />
+    <Property Name="Address" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="HomePhone" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <Property Name="Extension" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Notes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ReportsTo" Type="Int32" />
+    <Property Name="PhotoPath" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="EmployeeTerritory">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+      <PropertyRef Name="TerritoryID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+    <Property Name="TerritoryID" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="NewCustomer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="CustomerID" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="ContactTitle" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="NewOrder_Detail">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="UnitPrice" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="Discount" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Quantity" Type="Int16" Nullable="false" />
+    <Property Name="Discount" Type="Single" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NewOrder">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="String" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="EmployeeID" Type="Int32" />
+    <Property Name="OrderDate" Type="DateTime" Precision="3" />
+    <Property Name="RequiredDate" Type="DateTime" Precision="3" />
+    <Property Name="ShippedDate" Type="DateTime" Precision="3" />
+    <Property Name="ShipVia" Type="Int32" />
+    <Property Name="Freight" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ShipName" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ShipAddress" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="ShipCity" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ShipRegion" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ShipPostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ShipCountry" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="OrderDate" Type="DateTime" Precision="3" />
+    <Property Name="CustomerId" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="BillingAddress" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="ShippingAddress" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="NoOfUnits" Type="Int32" />
+    <Property Name="OrderValue" Type="Int32" />
+    <Property Name="Remarks" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Customer" Relationship="ThomsonTrainingDBModel.FK__Orders__Customer__1367E606" FromRole="Orders" ToRole="Customers" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="Discontinued" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="SupplierID" Type="Int32" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="QuantityPerUnit" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnitsInStock" Type="Int16" />
+    <Property Name="UnitsOnOrder" Type="Int16" />
+    <Property Name="ReorderLevel" Type="Int16" />
+    <Property Name="Discontinued" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PROJECT">
+    <Key>
+      <PropertyRef Name="projectno" />
+    </Key>
+    <Property Name="projectno" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="start_date" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="end_date" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PROJECT_PARTICIPATION">
+    <Key>
+      <PropertyRef Name="projectno" />
+      <PropertyRef Name="empno" />
+      <PropertyRef Name="start_date" />
+    </Key>
+    <Property Name="projectno" Type="Int32" Nullable="false" />
+    <Property Name="empno" Type="Int32" Nullable="false" />
+    <Property Name="start_date" Type="String" Nullable="false" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="end_date" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+    <Property Name="role_id" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="RegionID" />
+      <PropertyRef Name="RegionDescription" />
+    </Key>
+    <Property Name="RegionID" Type="Int32" Nullable="false" />
+    <Property Name="RegionDescription" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="ROLE">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SALARYGRADE">
+    <Key>
+      <PropertyRef Name="grade" />
+      <PropertyRef Name="losal" />
+      <PropertyRef Name="hisal" />
+    </Key>
+    <Property Name="grade" Type="Int32" Nullable="false" />
+    <Property Name="losal" Type="Int32" Nullable="false" />
+    <Property Name="hisal" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shipper">
+    <Key>
+      <PropertyRef Name="ShipperID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="ShipperID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="SupplierID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="ContactTitle" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <Property Name="HomePage" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Territory">
+    <Key>
+      <PropertyRef Name="TerritoryID" />
+      <PropertyRef Name="TerritoryDescription" />
+      <PropertyRef Name="RegionID" />
+    </Key>
+    <Property Name="TerritoryID" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TerritoryDescription" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="RegionID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Orders__Customer__1367E606">
+    <End Role="Customers" Type="ThomsonTrainingDBModel.Customer" Multiplicity="0..1" />
+    <End Role="Orders" Type="ThomsonTrainingDBModel.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="uspGetCustomers_Result">
+    <Property Type="String" Name="CustomerId" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="CustomerName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="EmailId" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="PhoneNumber" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="CreditLimit" Nullable="true" />
+    <Property Type="Boolean" Name="ActiveStatus" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="uspGetOrders_Result">
+    <Property Type="String" Name="OrderId" Nullable="false" MaxLength="10" />
+    <Property Type="DateTime" Name="OrderDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="CustomerId" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="BillingAddress" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ShippingAddress" Nullable="true" MaxLength="255" />
+    <Property Type="Int32" Name="NoOfUnits" Nullable="true" />
+    <Property Type="Int32" Name="OrderValue" Nullable="true" />
+    <Property Type="String" Name="Remarks" Nullable="true" MaxLength="255" />
+  </ComplexType>
+</Schema>

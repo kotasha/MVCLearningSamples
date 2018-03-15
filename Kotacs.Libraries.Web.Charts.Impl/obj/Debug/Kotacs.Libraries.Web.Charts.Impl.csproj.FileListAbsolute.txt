@@ -1,0 +1,7 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Kotacs.Libraries.Web.Charts.Impl.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Kotacs.Libraries.Web.Charts.Impl.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.csprojResolveAssemblyReference.cache
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.pdb

@@ -1,0 +1,10 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\bin\Debug\Sample.dll.config
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\bin\Debug\Sample.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\bin\Debug\Sample.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\obj\Debug\Sample.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\obj\Debug\Sample.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Sample\obj\Debug\Sample.csprojResolveAssemblyReference.cache

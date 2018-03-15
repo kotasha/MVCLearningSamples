@@ -1,0 +1,4 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Utility\bin\Debug\Kotacs.Libraries.Utility.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Utility\bin\Debug\Kotacs.Libraries.Utility.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Utility\obj\Debug\Kotacs.Libraries.Utility.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Utility\obj\Debug\Kotacs.Libraries.Utility.pdb

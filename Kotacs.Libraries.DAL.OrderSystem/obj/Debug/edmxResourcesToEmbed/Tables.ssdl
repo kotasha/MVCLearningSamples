@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ThomsonTrainingDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ThomsonTrainingDBModelStoreContainer">
+    <EntitySet Name="bonus" EntityType="ThomsonTrainingDBModel.Store.bonus" store:Type="Tables" store:Schema="dbo" store:Name="bonus">
+      <DefiningQuery>SELECT 
+      [bonus].[ename] AS [ename], 
+      [bonus].[job] AS [job], 
+      [bonus].[sal] AS [sal], 
+      [bonus].[comm] AS [comm]
+      FROM [dbo].[bonus] AS [bonus]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Categories" EntityType="ThomsonTrainingDBModel.Store.Categories" store:Type="Tables" store:Schema="dbo" store:Name="Categories">
+      <DefiningQuery>SELECT 
+      [Categories].[CategoryID] AS [CategoryID], 
+      [Categories].[CategoryName] AS [CategoryName], 
+      [Categories].[Description] AS [Description], 
+      [Categories].[Picture] AS [Picture]
+      FROM [dbo].[Categories] AS [Categories]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CustomerCustomerDemo" EntityType="ThomsonTrainingDBModel.Store.CustomerCustomerDemo" store:Type="Tables" store:Schema="dbo" store:Name="CustomerCustomerDemo">
+      <DefiningQuery>SELECT 
+      [CustomerCustomerDemo].[CustomerID] AS [CustomerID], 
+      [CustomerCustomerDemo].[CustomerTypeID] AS [CustomerTypeID]
+      FROM [dbo].[CustomerCustomerDemo] AS [CustomerCustomerDemo]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CustomerDemographics" EntityType="ThomsonTrainingDBModel.Store.CustomerDemographics" store:Type="Tables" store:Schema="dbo" store:Name="CustomerDemographics">
+      <DefiningQuery>SELECT 
+      [CustomerDemographics].[CustomerTypeID] AS [CustomerTypeID], 
+      [CustomerDemographics].[CustomerDesc] AS [CustomerDesc]
+      FROM [dbo].[CustomerDemographics] AS [CustomerDemographics]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Customers" EntityType="ThomsonTrainingDBModel.Store.Customers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DEPARTMENT" EntityType="ThomsonTrainingDBModel.Store.DEPARTMENT" store:Type="Tables" store:Schema="dbo" store:Name="DEPARTMENT">
+      <DefiningQuery>SELECT 
+      [DEPARTMENT].[deptno] AS [deptno], 
+      [DEPARTMENT].[name] AS [name], 
+      [DEPARTMENT].[location] AS [location]
+      FROM [dbo].[DEPARTMENT] AS [DEPARTMENT]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="EMPLOYEE" EntityType="ThomsonTrainingDBModel.Store.EMPLOYEE" store:Type="Tables" store:Schema="dbo" store:Name="EMPLOYEE">
+      <DefiningQuery>SELECT 
+      [EMPLOYEE].[empno] AS [empno], 
+      [EMPLOYEE].[name] AS [name], 
+      [EMPLOYEE].[job] AS [job], 
+      [EMPLOYEE].[boss] AS [boss], 
+      [EMPLOYEE].[hiredate] AS [hiredate], 
+      [EMPLOYEE].[salary] AS [salary], 
+      [EMPLOYEE].[comm] AS [comm], 
+      [EMPLOYEE].[deptno] AS [deptno]
+      FROM [dbo].[EMPLOYEE] AS [EMPLOYEE]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Employees" EntityType="ThomsonTrainingDBModel.Store.Employees" store:Type="Tables" store:Schema="dbo" store:Name="Employees">
+      <DefiningQuery>SELECT 
+      [Employees].[EmployeeID] AS [EmployeeID], 
+      [Employees].[LastName] AS [LastName], 
+      [Employees].[FirstName] AS [FirstName], 
+      [Employees].[Title] AS [Title], 
+      [Employees].[TitleOfCourtesy] AS [TitleOfCourtesy], 
+      [Employees].[BirthDate] AS [BirthDate], 
+      [Employees].[HireDate] AS [HireDate], 
+      [Employees].[Address] AS [Address], 
+      [Employees].[City] AS [City], 
+      [Employees].[Region] AS [Region], 
+      [Employees].[PostalCode] AS [PostalCode], 
+      [Employees].[Country] AS [Country], 
+      [Employees].[HomePhone] AS [HomePhone], 
+      [Employees].[Extension] AS [Extension], 
+      [Employees].[Photo] AS [Photo], 
+      [Employees].[Notes] AS [Notes], 
+      [Employees].[ReportsTo] AS [ReportsTo], 
+      [Employees].[PhotoPath] AS [PhotoPath]
+      FROM [dbo].[Employees] AS [Employees]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="EmployeeTerritories" EntityType="ThomsonTrainingDBModel.Store.EmployeeTerritories" store:Type="Tables" store:Schema="dbo" store:Name="EmployeeTerritories">
+      <DefiningQuery>SELECT 
+      [EmployeeTerritories].[EmployeeID] AS [EmployeeID], 
+      [EmployeeTerritories].[TerritoryID] AS [TerritoryID]
+      FROM [dbo].[EmployeeTerritories] AS [EmployeeTerritories]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="NewCustomers" EntityType="ThomsonTrainingDBModel.Store.NewCustomers" store:Type="Tables" store:Schema="dbo" store:Name="NewCustomers">
+      <DefiningQuery>SELECT 
+      [NewCustomers].[CustomerID] AS [CustomerID], 
+      [NewCustomers].[CompanyName] AS [CompanyName], 
+      [NewCustomers].[ContactName] AS [ContactName], 
+      [NewCustomers].[ContactTitle] AS [ContactTitle], 
+      [NewCustomers].[Address] AS [Address], 
+      [NewCustomers].[City] AS [City], 
+      [NewCustomers].[Region] AS [Region], 
+      [NewCustomers].[PostalCode] AS [PostalCode], 
+      [NewCustomers].[Country] AS [Country], 
+      [NewCustomers].[Phone] AS [Phone], 
+      [NewCustomers].[Fax] AS [Fax]
+      FROM [dbo].[NewCustomers] AS [NewCustomers]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="NewOrder Details" EntityType="ThomsonTrainingDBModel.Store.NewOrder Details" store:Type="Tables" store:Schema="dbo" store:Name="NewOrder Details">
+      <DefiningQuery>SELECT 
+      [NewOrder Details].[OrderID] AS [OrderID], 
+      [NewOrder Details].[ProductID] AS [ProductID], 
+      [NewOrder Details].[UnitPrice] AS [UnitPrice], 
+      [NewOrder Details].[Quantity] AS [Quantity], 
+      [NewOrder Details].[Discount] AS [Discount]
+      FROM [dbo].[NewOrder Details] AS [NewOrder Details]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="NewOrders" EntityType="ThomsonTrainingDBModel.Store.NewOrders" store:Type="Tables" store:Schema="dbo" store:Name="NewOrders">
+      <DefiningQuery>SELECT 
+      [NewOrders].[OrderID] AS [OrderID], 
+      [NewOrders].[CustomerID] AS [CustomerID], 
+      [NewOrders].[EmployeeID] AS [EmployeeID], 
+      [NewOrders].[OrderDate] AS [OrderDate], 
+      [NewOrders].[RequiredDate] AS [RequiredDate], 
+      [NewOrders].[ShippedDate] AS [ShippedDate], 
+      [NewOrders].[ShipVia] AS [ShipVia], 
+      [NewOrders].[Freight] AS [Freight], 
+      [NewOrders].[ShipName] AS [ShipName], 
+      [NewOrders].[ShipAddress] AS [ShipAddress], 
+      [NewOrders].[ShipCity] AS [ShipCity], 
+      [NewOrders].[ShipRegion] AS [ShipRegion], 
+      [NewOrders].[ShipPostalCode] AS [ShipPostalCode], 
+      [NewOrders].[ShipCountry] AS [ShipCountry]
+      FROM [dbo].[NewOrders] AS [NewOrders]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Orders" EntityType="ThomsonTrainingDBModel.Store.Orders" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Products" EntityType="ThomsonTrainingDBModel.Store.Products" store:Type="Tables" store:Schema="dbo" store:Name="Products">
+      <DefiningQuery>SELECT 
+      [Products].[ProductID] AS [ProductID], 
+      [Products].[ProductName] AS [ProductName], 
+      [Products].[SupplierID] AS [SupplierID], 
+      [Products].[CategoryID] AS [CategoryID], 
+      [Products].[QuantityPerUnit] AS [QuantityPerUnit], 
+      [Products].[UnitPrice] AS [UnitPrice], 
+      [Products].[UnitsInStock] AS [UnitsInStock], 
+      [Products].[UnitsOnOrder] AS [UnitsOnOrder], 
+      [Products].[ReorderLevel] AS [ReorderLevel], 
+      [Products].[Discontinued] AS [Discontinued]
+      FROM [dbo].[Products] AS [Products]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PROJECT" EntityType="ThomsonTrainingDBModel.Store.PROJECT" store:Type="Tables" store:Schema="dbo" store:Name="PROJECT">
+      <DefiningQuery>SELECT 
+      [PROJECT].[projectno] AS [projectno], 
+      [PROJECT].[description] AS [description], 
+      [PROJECT].[start_date] AS [start_date], 
+      [PROJECT].[end_date] AS [end_date]
+      FROM [dbo].[PROJECT] AS [PROJECT]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PROJECT_PARTICIPATION" EntityType="ThomsonTrainingDBModel.Store.PROJECT_PARTICIPATION" store:Type="Tables" store:Schema="dbo" store:Name="PROJECT_PARTICIPATION">
+      <DefiningQuery>SELECT 
+      [PROJECT_PARTICIPATION].[projectno] AS [projectno], 
+      [PROJECT_PARTICIPATION].[empno] AS [empno], 
+      [PROJECT_PARTICIPATION].[start_date] AS [start_date], 
+      [PROJECT_PARTICIPATION].[end_date] AS [end_date], 
+      [PROJECT_PARTICIPATION].[role_id] AS [role_id]
+      FROM [dbo].[PROJECT_PARTICIPATION] AS [PROJECT_PARTICIPATION]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Region" EntityType="ThomsonTrainingDBModel.Store.Region" store:Type="Tables" store:Schema="dbo" store:Name="Region">
+      <DefiningQuery>SELECT 
+      [Region].[RegionID] AS [RegionID], 
+      [Region].[RegionDescription] AS [RegionDescription]
+      FROM [dbo].[Region] AS [Region]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ROLE" EntityType="ThomsonTrainingDBModel.Store.ROLE" store:Type="Tables" store:Schema="dbo" store:Name="ROLE">
+      <DefiningQuery>SELECT 
+      [ROLE].[role_id] AS [role_id], 
+      [ROLE].[description] AS [description]
+      FROM [dbo].[ROLE] AS [ROLE]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="SALARYGRADE" EntityType="ThomsonTrainingDBModel.Store.SALARYGRADE" store:Type="Tables" store:Schema="dbo" store:Name="SALARYGRADE">
+      <DefiningQuery>SELECT 
+      [SALARYGRADE].[grade] AS [grade], 
+      [SALARYGRADE].[losal] AS [losal], 
+      [SALARYGRADE].[hisal] AS [hisal]
+      FROM [dbo].[SALARYGRADE] AS [SALARYGRADE]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Shippers" EntityType="ThomsonTrainingDBModel.Store.Shippers" store:Type="Tables" store:Schema="dbo" store:Name="Shippers">
+      <DefiningQuery>SELECT 
+      [Shippers].[ShipperID] AS [ShipperID], 
+      [Shippers].[CompanyName] AS [CompanyName], 
+      [Shippers].[Phone] AS [Phone]
+      FROM [dbo].[Shippers] AS [Shippers]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Suppliers" EntityType="ThomsonTrainingDBModel.Store.Suppliers" store:Type="Tables" store:Schema="dbo" store:Name="Suppliers">
+      <DefiningQuery>SELECT 
+      [Suppliers].[SupplierID] AS [SupplierID], 
+      [Suppliers].[CompanyName] AS [CompanyName], 
+      [Suppliers].[ContactName] AS [ContactName], 
+      [Suppliers].[ContactTitle] AS [ContactTitle], 
+      [Suppliers].[Address] AS [Address], 
+      [Suppliers].[City] AS [City], 
+      [Suppliers].[Region] AS [Region], 
+      [Suppliers].[PostalCode] AS [PostalCode], 
+      [Suppliers].[Country] AS [Country], 
+      [Suppliers].[Phone] AS [Phone], 
+      [Suppliers].[Fax] AS [Fax], 
+      [Suppliers].[HomePage] AS [HomePage]
+      FROM [dbo].[Suppliers] AS [Suppliers]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Territories" EntityType="ThomsonTrainingDBModel.Store.Territories" store:Type="Tables" store:Schema="dbo" store:Name="Territories">
+      <DefiningQuery>SELECT 
+      [Territories].[TerritoryID] AS [TerritoryID], 
+      [Territories].[TerritoryDescription] AS [TerritoryDescription], 
+      [Territories].[RegionID] AS [RegionID]
+      FROM [dbo].[Territories] AS [Territories]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Orders__Customer__1367E606" Association="ThomsonTrainingDBModel.Store.FK__Orders__Customer__1367E606">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.bonus' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="bonus">
+    <Key>
+      <PropertyRef Name="ename" />
+      <PropertyRef Name="job" />
+    </Key>
+    <Property Name="ename" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="job" Type="varchar" Nullable="false" MaxLength="9" />
+    <Property Name="sal" Type="decimal" Precision="7" Scale="2" />
+    <Property Name="comm" Type="decimal" Precision="7" Scale="2" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.Categories' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Name="CategoryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="Picture" Type="image" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.CustomerCustomerDemo' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="CustomerCustomerDemo">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="CustomerTypeID" />
+    </Key>
+    <Property Name="CustomerID" Type="nchar" Nullable="false" MaxLength="5" />
+    <Property Name="CustomerTypeID" Type="nchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.CustomerDemographics' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="CustomerDemographics">
+    <Key>
+      <PropertyRef Name="CustomerTypeID" />
+    </Key>
+    <Property Name="CustomerTypeID" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="CustomerDesc" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+    <Property Name="EmailId" Type="varchar" MaxLength="60" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="20" />
+    <Property Name="CreditLimit" Type="int" />
+    <Property Name="ActiveStatus" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.DEPARTMENT' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="DEPARTMENT">
+    <Key>
+      <PropertyRef Name="deptno" />
+    </Key>
+    <Property Name="deptno" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="14" />
+    <Property Name="location" Type="varchar" MaxLength="13" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.EMPLOYEE' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="EMPLOYEE">
+    <Key>
+      <PropertyRef Name="empno" />
+    </Key>
+    <Property Name="empno" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="10" />
+    <Property Name="job" Type="varchar" MaxLength="9" />
+    <Property Name="boss" Type="int" />
+    <Property Name="hiredate" Type="varchar" MaxLength="12" />
+    <Property Name="salary" Type="decimal" Precision="7" Scale="2" />
+    <Property Name="comm" Type="decimal" Precision="7" Scale="2" />
+    <Property Name="deptno" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.Employees' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+      <PropertyRef Name="LastName" />
+      <PropertyRef Name="FirstName" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="Title" Type="nvarchar" MaxLength="30" />
+    <Property Name="TitleOfCourtesy" Type="nvarchar" MaxLength="25" />
+    <Property Name="BirthDate" Type="datetime" />
+    <Property Name="HireDate" Type="datetime" />
+    <Property Name="Address" Type="nvarchar" MaxLength="60" />
+    <Property Name="City" Type="nvarchar" MaxLength="15" />
+    <Property Name="Region" Type="nvarchar" MaxLength="15" />
+    <Property Name="PostalCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Country" Type="nvarchar" MaxLength="15" />
+    <Property Name="HomePhone" Type="nvarchar" MaxLength="24" />
+    <Property Name="Extension" Type="nvarchar" MaxLength="4" />
+    <Property Name="Photo" Type="image" />
+    <Property Name="Notes" Type="ntext" />
+    <Property Name="ReportsTo" Type="int" />
+    <Property Name="PhotoPath" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.EmployeeTerritories' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="EmployeeTerritories">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+      <PropertyRef Name="TerritoryID" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" Nullable="false" />
+    <Property Name="TerritoryID" Type="nvarchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.NewCustomers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="NewCustomers">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="CustomerID" Type="nchar" Nullable="false" MaxLength="5" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="30" />
+    <Property Name="ContactTitle" Type="nvarchar" MaxLength="30" />
+    <Property Name="Address" Type="nvarchar" MaxLength="60" />
+    <Property Name="City" Type="nvarchar" MaxLength="15" />
+    <Property Name="Region" Type="nvarchar" MaxLength="15" />
+    <Property Name="PostalCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Country" Type="nvarchar" MaxLength="15" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="24" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="24" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.NewOrder Details' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="NewOrder Details">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="UnitPrice" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="Discount" />
+    </Key>
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="ProductID" Type="int" Nullable="false" />
+    <Property Name="UnitPrice" Type="money" Nullable="false" />
+    <Property Name="Quantity" Type="smallint" Nullable="false" />
+    <Property Name="Discount" Type="real" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.NewOrders' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="NewOrders">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="nchar" MaxLength="5" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="OrderDate" Type="datetime" />
+    <Property Name="RequiredDate" Type="datetime" />
+    <Property Name="ShippedDate" Type="datetime" />
+    <Property Name="ShipVia" Type="int" />
+    <Property Name="Freight" Type="money" />
+    <Property Name="ShipName" Type="nvarchar" MaxLength="40" />
+    <Property Name="ShipAddress" Type="nvarchar" MaxLength="60" />
+    <Property Name="ShipCity" Type="nvarchar" MaxLength="15" />
+    <Property Name="ShipRegion" Type="nvarchar" MaxLength="15" />
+    <Property Name="ShipPostalCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="ShipCountry" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="OrderDate" Type="datetime" />
+    <Property Name="CustomerId" Type="varchar" MaxLength="10" />
+    <Property Name="BillingAddress" Type="nvarchar" MaxLength="255" />
+    <Property Name="ShippingAddress" Type="nvarchar" MaxLength="255" />
+    <Property Name="NoOfUnits" Type="int" />
+    <Property Name="OrderValue" Type="int" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.Products' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="Discontinued" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="SupplierID" Type="int" />
+    <Property Name="CategoryID" Type="int" />
+    <Property Name="QuantityPerUnit" Type="nvarchar" MaxLength="20" />
+    <Property Name="UnitPrice" Type="money" />
+    <Property Name="UnitsInStock" Type="smallint" />
+    <Property Name="UnitsOnOrder" Type="smallint" />
+    <Property Name="ReorderLevel" Type="smallint" />
+    <Property Name="Discontinued" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.PROJECT' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="PROJECT">
+    <Key>
+      <PropertyRef Name="projectno" />
+    </Key>
+    <Property Name="projectno" Type="int" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="100" />
+    <Property Name="start_date" Type="varchar" MaxLength="12" />
+    <Property Name="end_date" Type="varchar" MaxLength="12" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.PROJECT_PARTICIPATION' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="PROJECT_PARTICIPATION">
+    <Key>
+      <PropertyRef Name="projectno" />
+      <PropertyRef Name="empno" />
+      <PropertyRef Name="start_date" />
+    </Key>
+    <Property Name="projectno" Type="int" Nullable="false" />
+    <Property Name="empno" Type="int" Nullable="false" />
+    <Property Name="start_date" Type="varchar" Nullable="false" MaxLength="12" />
+    <Property Name="end_date" Type="varchar" MaxLength="12" />
+    <Property Name="role_id" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.Region' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="RegionID" />
+      <PropertyRef Name="RegionDescription" />
+    </Key>
+    <Property Name="RegionID" Type="int" Nullable="false" />
+    <Property Name="RegionDescription" Type="nchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.ROLE' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ROLE">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="int" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.SALARYGRADE' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="SALARYGRADE">
+    <Key>
+      <PropertyRef Name="grade" />
+      <PropertyRef Name="losal" />
+      <PropertyRef Name="hisal" />
+    </Key>
+    <Property Name="grade" Type="int" Nullable="false" />
+    <Property Name="losal" Type="int" Nullable="false" />
+    <Property Name="hisal" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.Shippers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Shippers">
+    <Key>
+      <PropertyRef Name="ShipperID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="ShipperID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="24" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.Suppliers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="SupplierID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="ContactName" Type="nvarchar" MaxLength="30" />
+    <Property Name="ContactTitle" Type="nvarchar" MaxLength="30" />
+    <Property Name="Address" Type="nvarchar" MaxLength="60" />
+    <Property Name="City" Type="nvarchar" MaxLength="15" />
+    <Property Name="Region" Type="nvarchar" MaxLength="15" />
+    <Property Name="PostalCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Country" Type="nvarchar" MaxLength="15" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="24" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="24" />
+    <Property Name="HomePage" Type="ntext" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'ThomsonTrainingDB.dbo.Territories' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Territories">
+    <Key>
+      <PropertyRef Name="TerritoryID" />
+      <PropertyRef Name="TerritoryDescription" />
+      <PropertyRef Name="RegionID" />
+    </Key>
+    <Property Name="TerritoryID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="TerritoryDescription" Type="nchar" Nullable="false" MaxLength="50" />
+    <Property Name="RegionID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Orders__Customer__1367E606">
+    <End Role="Customers" Type="ThomsonTrainingDBModel.Store.Customers" Multiplicity="0..1" />
+    <End Role="Orders" Type="ThomsonTrainingDBModel.Store.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="uspGetCustomers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerName" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="uspGetOrders" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="customerId" Type="varchar" Mode="In" />
+  </Function>
+</Schema>

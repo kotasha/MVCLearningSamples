@@ -1,0 +1,11 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\bin\Debug\Kotacs.Libraries.SOA.Proxies.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\bin\Debug\Kotacs.Libraries.SOA.Proxies.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\bin\Debug\Kotacs.Libraries.SOA.Contracts.Services.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\bin\Debug\Kotacs.Libraries.SOA.Contracts.Services.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\obj\Debug\Kotacs.Libraries.SOA.Proxies.csprojResolveAssemblyReference.cache
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\obj\Debug\Kotacs.Libraries.SOA.Proxies.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Proxies\obj\Debug\Kotacs.Libraries.SOA.Proxies.pdb

@@ -1,0 +1,9 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\bin\Debug\Kotacs.Libraries.SOA.Contracts.Services.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\bin\Debug\Kotacs.Libraries.SOA.Contracts.Services.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\obj\Debug\Kotacs.Libraries.SOA.Contracts.Services.csprojResolveAssemblyReference.cache
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\obj\Debug\Kotacs.Libraries.SOA.Contracts.Services.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Services\obj\Debug\Kotacs.Libraries.SOA.Contracts.Services.pdb

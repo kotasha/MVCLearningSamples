@@ -1,0 +1,6 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.ModelErrors.resources
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.csproj.GenerateResource.Cache
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb

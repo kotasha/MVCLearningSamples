@@ -1,0 +1,14 @@
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\ServiceProxyTesting.exe.config
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\ServiceProxyTesting.exe
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\ServiceProxyTesting.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libraries.SOA.Contracts.Services.dll
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libraries.SOA.Proxies.dll
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libraries.SOA.Proxies.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libraries.SOA.Contracts.Services.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\obj\Debug\ServiceProxyTesting.csprojResolveAssemblyReference.cache
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\obj\Debug\ServiceProxyTesting.exe
+D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\obj\Debug\ServiceProxyTesting.pdb

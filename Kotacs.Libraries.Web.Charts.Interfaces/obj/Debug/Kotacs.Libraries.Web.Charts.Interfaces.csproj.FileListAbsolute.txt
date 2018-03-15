@@ -1,0 +1,4 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Interfaces\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Interfaces\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Interfaces\obj\Debug\Kotacs.Libraries.Web.Charts.Interfaces.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Interfaces\obj\Debug\Kotacs.Libraries.Web.Charts.Interfaces.pdb

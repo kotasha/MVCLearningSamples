@@ -1,0 +1,4 @@
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Faults\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Faults\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Faults\obj\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll
+D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Faults\obj\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb

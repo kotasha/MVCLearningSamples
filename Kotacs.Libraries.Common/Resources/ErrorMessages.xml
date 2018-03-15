@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ErrorMessages>
+  <ErrorMessage id ="1" value ="Error while doing basic search for course"/>
+  <ErrorMessage id ="2" value ="Error while creating course service instance"/>
+  <ErrorMessage id ="3" value ="Error while accessing the database"/>
+  <ErrorMessage id ="4" value ="Unable to resolve business service"/>
+  <ErrorMessage id ="5" value ="Unable to resolve business component"/>
+  <ErrorMessage id ="6" value ="Unable to resolve database service"/>
+  <ErrorMessage id ="7" value ="Error when fetching list of noted experts"/>
+</ErrorMessages>?

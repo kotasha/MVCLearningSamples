@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LogMessages>
+  <LogMessage id = "1" value = "Converting data from DataSet to model object"/>
+  <LogMessage id = "2" value = "Successfully converted data from DataSe to model object"/>
+  <LogMessage id = "3" value = "Invoking business service {0}"/>
+  <LogMessage id = "4" value = "Perform quick search for {0} and {}"/>
+  <LogMessage id = "5" value = "Received data from service for {0}"/>
+</LogMessages>
