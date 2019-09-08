@@ -5,3 +5,17 @@ D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\bin\Debug
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.csprojResolveAssemblyReference.cache
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.dll
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Kotacs.Libraries.Web.Charts.Impl.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Kotacs.Libraries.Web.Charts.Impl.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\System.Web.Helpers.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\System.Web.WebPages.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\System.Web.Razor.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.csprojAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.csproj.CopyComplete
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Impl\obj\Debug\Kotacs.Libraries.Web.Charts.Impl.pdb

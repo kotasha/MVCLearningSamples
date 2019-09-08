@@ -2,3 +2,8 @@ D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Utility\bin\Debug\Kotacs.
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Utility\bin\Debug\Kotacs.Libraries.Utility.pdb
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Utility\obj\Debug\Kotacs.Libraries.Utility.dll
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Utility\obj\Debug\Kotacs.Libraries.Utility.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Utility\bin\Debug\Kotacs.Libraries.Utility.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Utility\bin\Debug\Kotacs.Libraries.Utility.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Utility\obj\Debug\Kotacs.Libraries.Utility.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Utility\obj\Debug\Kotacs.Libraries.Utility.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Utility\obj\Debug\Kotacs.Libraries.Utility.pdb

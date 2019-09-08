@@ -12,3 +12,14 @@ D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\bin\Deb
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.csprojResolveAssemblyReference.cache
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.dll
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\bin\Debug\Kotacs.Libraries.Web.Extensibility.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.xml
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.csprojAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Extensibility\obj\Debug\Kotacs.Libraries.Web.Extensibility.csproj.CopyComplete

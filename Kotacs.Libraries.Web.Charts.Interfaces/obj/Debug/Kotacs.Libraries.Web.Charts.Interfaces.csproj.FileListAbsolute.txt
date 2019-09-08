@@ -2,3 +2,8 @@ D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Interfaces\bin
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Interfaces\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.pdb
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Interfaces\obj\Debug\Kotacs.Libraries.Web.Charts.Interfaces.dll
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Web.Charts.Interfaces\obj\Debug\Kotacs.Libraries.Web.Charts.Interfaces.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Interfaces\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Interfaces\bin\Debug\Kotacs.Libraries.Web.Charts.Interfaces.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Interfaces\obj\Debug\Kotacs.Libraries.Web.Charts.Interfaces.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Interfaces\obj\Debug\Kotacs.Libraries.Web.Charts.Interfaces.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Web.Charts.Interfaces\obj\Debug\Kotacs.Libraries.Web.Charts.Interfaces.pdb

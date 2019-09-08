@@ -8,3 +8,14 @@ D:\Personal\SelfPractice\MVCCaseStudy\Sample\bin\Debug\Microsoft.Practices.Enter
 D:\Personal\SelfPractice\MVCCaseStudy\Sample\obj\Debug\Sample.dll
 D:\Personal\SelfPractice\MVCCaseStudy\Sample\obj\Debug\Sample.pdb
 D:\Personal\SelfPractice\MVCCaseStudy\Sample\obj\Debug\Sample.csprojResolveAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Sample\bin\Debug\Sample.dll.config
+C:\FullStackDev\MVCLearningSamples\Sample\bin\Debug\Sample.dll
+C:\FullStackDev\MVCLearningSamples\Sample\bin\Debug\Sample.pdb
+C:\FullStackDev\MVCLearningSamples\Sample\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\FullStackDev\MVCLearningSamples\Sample\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\FullStackDev\MVCLearningSamples\Sample\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\FullStackDev\MVCLearningSamples\Sample\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\FullStackDev\MVCLearningSamples\Sample\obj\Debug\Sample.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Sample\obj\Debug\Sample.csproj.CopyComplete
+C:\FullStackDev\MVCLearningSamples\Sample\obj\Debug\Sample.dll
+C:\FullStackDev\MVCLearningSamples\Sample\obj\Debug\Sample.pdb

@@ -12,3 +12,5 @@ D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\bin\Debug\Kotacs.Libra
 D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\obj\Debug\ServiceProxyTesting.csprojResolveAssemblyReference.cache
 D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\obj\Debug\ServiceProxyTesting.exe
 D:\Personal\SelfPractice\MVCCaseStudy\ServiceProxyTesting\obj\Debug\ServiceProxyTesting.pdb
+C:\FullStackDev\MVCLearningSamples\ServiceProxyTesting\obj\Debug\ServiceProxyTesting.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\ServiceProxyTesting\obj\Debug\ServiceProxyTesting.csprojAssemblyReference.cache

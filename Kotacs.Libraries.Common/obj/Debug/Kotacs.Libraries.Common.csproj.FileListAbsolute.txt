@@ -30,3 +30,12 @@ D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Common\bin\Debug\Microsof
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Common\obj\Debug\Kotacs.Libraries.Common.dll
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Common\obj\Debug\Kotacs.Libraries.Common.pdb
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.Common\obj\Debug\Kotacs.Libraries.Common.csprojResolveAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\bin\Debug\Kotacs.Libraries.Common.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\bin\Debug\Kotacs.Libraries.Common.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\bin\Debug\Kotacs.Libraries.Utility.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\bin\Debug\Kotacs.Libraries.Utility.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\obj\Debug\Kotacs.Libraries.Common.csprojAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\obj\Debug\Kotacs.Libraries.Common.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\obj\Debug\Kotacs.Libraries.Common.csproj.CopyComplete
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\obj\Debug\Kotacs.Libraries.Common.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Common\obj\Debug\Kotacs.Libraries.Common.pdb

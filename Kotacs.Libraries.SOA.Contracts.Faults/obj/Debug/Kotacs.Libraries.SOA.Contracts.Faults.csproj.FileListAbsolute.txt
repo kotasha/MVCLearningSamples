@@ -2,3 +2,8 @@ D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Faults\bin\
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Faults\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Faults\obj\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Faults\obj\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\obj\Debug\Kotacs.Libraries.SOA.Contracts.Faults.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\obj\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\obj\Debug\Kotacs.Libraries.SOA.Contracts.Faults.pdb

@@ -4,3 +4,17 @@ D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\obj\De
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.csproj.GenerateResource.Cache
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
 D:\Personal\SelfPractice\MVCCaseStudy\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.ModelErrors.resources
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.csproj.GenerateResource.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\System.Web.Mvc.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\System.Web.Razor.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\System.Web.WebPages.Razor.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\System.Web.WebPages.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.csproj.CopyComplete
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Data\obj\Debug\Kotacs.Libraries.SOA.Contracts.Data.pdb

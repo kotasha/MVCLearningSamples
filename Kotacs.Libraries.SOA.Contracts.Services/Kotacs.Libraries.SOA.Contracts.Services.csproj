@@ -33,14 +33,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Kotacs.Libraries.SOA.Contracts.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Kotacs.Libraries.SOA.Contracts.Data\bin\Debug\Kotacs.Libraries.SOA.Contracts.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Kotacs.Libraries.SOA.Contracts.Faults, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Kotacs.Libraries.SOA.Contracts.Faults\bin\Debug\Kotacs.Libraries.SOA.Contracts.Faults.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -56,6 +48,16 @@
     <Compile Include="ICustomerService.cs" />
     <Compile Include="IOrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kotacs.Libraries.SOA.Contracts.Data\Kotacs.Libraries.SOA.Contracts.Data.csproj">
+      <Project>{83f00224-e220-4f3c-a876-db57662fb5de}</Project>
+      <Name>Kotacs.Libraries.SOA.Contracts.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kotacs.Libraries.SOA.Contracts.Faults\Kotacs.Libraries.SOA.Contracts.Faults.csproj">
+      <Project>{2577bcb6-79f3-44e9-9061-0a2f959b758e}</Project>
+      <Name>Kotacs.Libraries.SOA.Contracts.Faults</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
