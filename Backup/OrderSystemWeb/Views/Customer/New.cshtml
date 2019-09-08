@@ -1,0 +1,101 @@
+﻿@model Kotacs.Libraries.SOA.Contracts.Data.Customer
+
+@{
+    ViewBag.Title = "New";
+}
+<h2>New Customer Profile</h2>
+@*<script type="text/javascript">
+    jQuery.validator.addMethod("validaterange", function (value, element, param) {
+        if (!value) return false;
+
+        var minValue = param.min;
+        var maxValue = param.max;
+
+        return parseInt(value) >= parseInt(minValue) && parseInt(value) <= parseInt(maxValue);
+    });
+
+    jQuery.validator.unobtrusive.adapters.add("subscriptionrange", ["min", "max"], function (options) {
+        var params = {
+            min: options.params.min,
+            max: options.params.max
+        };
+
+        options.rules["validaterange"] = params;
+        options.messages["validaterange"] = options.message;
+    });
+
+</script>*@
+<div id="maincontent">
+@using(Html.BeginForm())
+{
+   /* @Html.HiddenFor(model => model.Customerid)*/
+    /*@Html.Hidden("Kotacs.Customerid", Model.Customerid)*/
+    @Html.Hidden("KotacsFormCustomerId", Model.Customerid)
+<fieldset>
+    <label>Customer Details</label>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    Customer Id
+                </td>
+                <td>
+                    @Model.Customerid
+                    @*@Html.TextBoxFor(model => model.Customerid)*@
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Customer Name
+                </td>
+                <td>
+                    @*@Html.TextBoxFor(model=> model.CustomerName)*@
+                    @Html.TextBox("KotacsFormCustomerName",Model.CustomerName)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model=> model.CustomerName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Customer Address
+                </td>
+                <td>
+                    @*@Html.TextBoxFor(model=> model.Address)*@
+                    @Html.TextBox("KotacsFormAddress", Model.Address )
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Credit Limit
+                </td>
+                <td>
+                    @*@Html.TextBoxFor(model=>model.CreditLimit)*@
+                    @Html.TextBox("KotacsFormCreditLimit",Model.CreditLimit)
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    Active Status
+                </td>
+                <td>
+                    @*@Html.TextBoxFor(model => model.ActiveStatus)*@
+                    @Html.TextBox("KotacsFormActiveStatus",Model.ActiveStatus)
+                </td>
+            </tr>
+                <tr>
+                <td>
+                    Remarks
+                </td>
+                <td>
+                    @*@Html.TextBoxFor(model => model.EmailId)*@
+                    @Html.TextBox("KotacsFormEmaild",Model.EmailId)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <input type="submit" name="Save" value="Save Customer"/>
+</fieldset>
+}
+ </div>

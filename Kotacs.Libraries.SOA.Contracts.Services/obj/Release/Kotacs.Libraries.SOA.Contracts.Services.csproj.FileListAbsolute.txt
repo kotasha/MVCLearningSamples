@@ -1,0 +1,17 @@
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\Kotacs.Libraries.SOA.Contracts.Services.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\Kotacs.Libraries.SOA.Contracts.Services.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\Kotacs.Libraries.SOA.Contracts.Data.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\Kotacs.Libraries.SOA.Contracts.Faults.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\System.Web.Mvc.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\System.Web.Razor.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\System.Web.WebPages.Razor.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\System.Web.WebPages.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\System.Web.WebPages.Deployment.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\Kotacs.Libraries.SOA.Contracts.Data.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\bin\Release\Kotacs.Libraries.SOA.Contracts.Faults.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\obj\Release\Kotacs.Libraries.SOA.Contracts.Services.csprojAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\obj\Release\Kotacs.Libraries.SOA.Contracts.Services.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\obj\Release\Kotacs.Libraries.SOA.Contracts.Services.csproj.CopyComplete
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\obj\Release\Kotacs.Libraries.SOA.Contracts.Services.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Services\obj\Release\Kotacs.Libraries.SOA.Contracts.Services.pdb

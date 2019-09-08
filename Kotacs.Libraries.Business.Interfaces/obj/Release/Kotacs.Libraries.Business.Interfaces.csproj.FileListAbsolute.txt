@@ -1,0 +1,15 @@
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\Kotacs.Libraries.Business.Interfaces.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\Kotacs.Libraries.Business.Interfaces.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\Kotacs.Libraries.SOA.Contracts.Data.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\System.Web.Mvc.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\System.Web.Razor.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\System.Web.WebPages.Razor.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\System.Web.WebPages.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\System.Web.WebPages.Deployment.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\bin\Release\Kotacs.Libraries.SOA.Contracts.Data.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\obj\Release\Kotacs.Libraries.Business.Interfaces.csprojAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\obj\Release\Kotacs.Libraries.Business.Interfaces.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\obj\Release\Kotacs.Libraries.Business.Interfaces.csproj.CopyComplete
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\obj\Release\Kotacs.Libraries.Business.Interfaces.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.Business.Interfaces\obj\Release\Kotacs.Libraries.Business.Interfaces.pdb

@@ -1,0 +1,2 @@
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.DAL.OrderSystem\obj\Release\Kotacs.Libraries.DAL.OrderSystem.csprojAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.DAL.OrderSystem\obj\Release\Kotacs.Libraries.DAL.OrderSystem.csproj.CoreCompileInputs.cache

@@ -1,0 +1,100 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <link href="../../Content/Site.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.7.1.min.js"></script>
+    <script src="../../Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript">
+        function processResult(data) { alert("Output from server" + data); }
+    $(document).ready(function ()
+    {
+        //debugger
+        $("#btnLoad").click(function () 
+        { var url="ARCustom/AllCustomers" ;
+        $.ajax(
+            {
+                url: url,
+                method: "GET",
+                dataType: "json",
+                success: function (data)
+            { 
+                var table="<table id='tblCustomers' border='1'>";
+                table += "<thead>" + "<tr>" +
+                             "<th> Customer Id</th>" +
+                             "<th> Name</th>" +
+                             "<th> CreditLimit</th>" +
+                             "<th>Actions</th>" +
+                                + "</tr>" + "</thead>";
+                table+="<tbody>";
+                $.each(data,function(index,item)
+                {
+                    var stockUrl = "/ARCustom/Stock?Customerid=" + item.Customerid;
+                    var specificationUrl = "/ARCustom/Specification?Customerid=" + item.Customerid;
+                    var videoDownloadUrl = "/ARCustom/Video?Customerid=" + item.Customerid;
+                    table +=
+                            "<tr>" +
+                                "<td>" + item.Customerid + "</td>" +
+                                "<td>" + item.CustomerName + "</td>" +
+                                "<td>" + item.CreditLimit + "</td>" +
+                                "<td>" +
+                                    "<a data-ajax='true' data-ajax-method='GET' href='" + stockUrl + "'>Stock</a>"
+                                    +"|" + "<a href='" + specificationUrl + "'>Download SRS  </a>"
+                                    +"|" + "<a href='" + videoDownloadUrl + "'>Download Video </a>"
+                                    //+"|" + "<video src='" + videoDownloadUrl + "' controls='controls'>Download video </video>"
+                            + "</td>"
+                            "</tr>";
+                }
+                );
+                table+="</tbody>";
+                table+="</table>";
+                $("#result-container").html(table);
+            }
+            });
+        });
+    });
+        </script>
+</head>
+<body>
+<br />
+        
+@*<div style="font-family:Verdana; font-size:16px; color:#000; font-weight:bold;">What is Microsoft ASP.NET MVC?</div>*@
+    @*<div style="margin-bottom:15px;font-family:Verdana;font-size:12px;">
+    <a href="http://www.lynda.com/ASPNET-tutorials/ASPNET-MVC-4-Essential-Training/109762-2.html?utm_source=embed+video&utm_medium=viral&utm_campaign=embed+video&utm_content=ASP.NET+MVC+4+Essential+Training+120275&utm_term=Course+link">ASP.NET MVC 4 Essential Training</a>
+     | by Jess Chadwick</div>*@
+    
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" height="365" width="560" id="ply" >
+        <param name="movie" value="http://www.lynda.com/home/embed/player.swf" />
+        <param name="allowfullscreen" value="true" />
+        <param name="allowscriptaccess" value="always" />
+        <param value="basepath=http://www.lynda.com/home/&amp;skin=http://www.lynda.com/home/embed/skin.swf&amp;plugins=http://www.lynda.com/home/embed/controlling.swf&amp;type=video&amp;lpk4=120275" name="flashvars" />
+        <embed
+             src="http://www.lynda.com/home/embed/player.swf" width="560" height="365" allowfullscreen="true" allowscriptaccess="always" flashvars="basepath=http://www.lynda.com/home/&amp;skin=http://www.lynda.com/home/embed/skin.swf&amp;plugins=http://www.lynda.com/home/embed/controlling.swf&amp;type=video&amp;lpk4=120275">
+
+        </embed>
+    </object> 
+    
+
+
+    @*<div style="font-family:Verdana;font-size:12px; margin-top:10px; ">View this entire <a href="http://www.lynda.com/ASPNET-tutorials/ASPNET-MVC-4-Essential-Training/109762-2.html?utm_source=embed+video&utm_medium=viral&utm_campaign=embed+video&utm_content=ASP.NET+MVC+4+Essential+Training+120275&utm_term=Course+link">ASP.NET MVC 4 Essential Training course</a> and more in the lynda.com 
+        <a href="http://www.lynda.com/membership?utm_source=embed+video&utm_campaign=embed+video&utm_content=ASP.NET+MVC+4+Essential+Training+120275&utm_term=OTL+link">library</a>.</div>*@
+    @*<div id="video container">*@
+        @*<video src="D:\\Personal\\SelfPractice\\MVCCaseStudy\\Resources\\Videos\\Customer Talk (C100011).wmv" controls="controls"></video>*@
+   @* <video controls preload="none">
+                      <source src="../../Content/Videos/Customer%20Talk%20(C100011).wmv" />
+                      <div class="no-video">
+                            <h1>Video</h1>
+                        </div>
+                    </video>
+    </div>*@
+    
+<div id="result-container">
+    </div> 
+    <div id="status-container">
+        <input type="button" id="btnLoad" value="Load Data" name="LoadData" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\bin\Release\Kotacs.Libraries.SOA.Contracts.Faults.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\bin\Release\Kotacs.Libraries.SOA.Contracts.Faults.pdb
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\obj\Release\Kotacs.Libraries.SOA.Contracts.Faults.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\obj\Release\Kotacs.Libraries.SOA.Contracts.Faults.dll
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Contracts.Faults\obj\Release\Kotacs.Libraries.SOA.Contracts.Faults.pdb

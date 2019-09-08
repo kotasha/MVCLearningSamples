@@ -1,0 +1,2 @@
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Impl\obj\Release\Kotacs.Libraries.SOA.Impl.csprojAssemblyReference.cache
+C:\FullStackDev\MVCLearningSamples\Kotacs.Libraries.SOA.Impl\obj\Release\Kotacs.Libraries.SOA.Impl.csproj.CoreCompileInputs.cache

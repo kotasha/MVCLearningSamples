@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Kotacs.Libraries.SOA.Contracts.Data.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>
+    Customers Home
+</h2>
+<div id="maincontent">
+    @using (Html.BeginForm("Search", "Customer", FormMethod.Get))
+    {
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        Customer Name:
+                    </td>
+                    <td>
+                        @Html.TextBox("customerName")
+                    </td>
+                    <td>
+                        <input type="submit" value="Search" name="Search" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+         
+    }
+    <br />
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>
+                    customer #
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Active Status
+                </th>
+                  <th>
+                    Actionss
+                </th>
+            </tr>
+        </tbody>
+        @foreach(var customer in @Model)
+        {
+            <tr>
+                    <td>
+                        @Html.ActionLink(
+                        customer.Customerid,
+                        "Details",
+                        "Customer",
+                        new { customerId = customer.Customerid },default(object))</td>
+                 <td>@customer.CustomerName</td>
+                    <td>@customer.ActiveStatus</td>
+                  <td>@Html.ActionLink(
+                        "Order Details",
+                        "OrderDetails",
+                        "Order",
+                        new { customerId = customer.Customerid }, default(object))</td>
+            </tr>
+        }
+
+    </table>
+</div>
+<div>
+    @Html.ActionLink("Add New Customer","New","Customer")
+</div>

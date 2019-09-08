@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Kotacs Web Hosting</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+@*<link href="style.css" rel="stylesheet" type="text/css" />*@
+    <link href="../../Content/Style.css" rel="stylesheet" />
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<h1><span><a href="#">Professional</a></span></h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="first">
+             @Html.ActionLink("Home","Index")
+			</li>
+            <li>
+                @Html.ActionLink("Customers","Index","Customer")
+            </li>
+            <li>
+                @Html.ActionLink("Redirections","Index","Redirect")
+            </li>
+			@*<li><a href="#">Products</a></li>*@
+            <li> @Html.ActionLink("Helpers","AjaxIndex","Customer")
+            </li>
+             <li> @Html.ActionLink("ARCustom","Index","ARCustom")
+            </li>
+
+		</ul>
+	</div>
+</div>
+<div id="headershadow"><a href="#"><img src="../../Content/Images/header-picture.jpg" alt="" width="877" height="150" /></a></div>
+<div id="content">
+    @RenderBody()
+
+    @RenderSection("Sidebar",required:false)
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+	<!-- Please leave the link to http://www.100webhosting.com intact -->
+	<p>
+		&copy; 2013 kotacs.com. Design by <a href="http://www.kotacs.com/">Kotacs.com</a>.
+	</p>
+</div>
+</body>
+</html>

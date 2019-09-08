@@ -1,0 +1,8 @@
+C:\FullStackDev\MVCLearningSamples\OrderSystemWeb\bin\OrderSystemWeb.dll.config
+C:\FullStackDev\MVCLearningSamples\OrderSystemWeb\bin\OrderSystemWeb.dll
+C:\FullStackDev\MVCLearningSamples\OrderSystemWeb\bin\OrderSystemWeb.pdb
+C:\FullStackDev\MVCLearningSamples\OrderSystemWeb\obj\Debug\OrderSystemWeb.csproj.CoreCompileInputs.cache
+C:\FullStackDev\MVCLearningSamples\OrderSystemWeb\obj\Debug\OrderSystemWeb.csproj.CopyComplete
+C:\FullStackDev\MVCLearningSamples\OrderSystemWeb\obj\Debug\OrderSystemWeb.dll
+C:\FullStackDev\MVCLearningSamples\OrderSystemWeb\obj\Debug\OrderSystemWeb.pdb
+C:\FullStackDev\MVCLearningSamples\OrderSystemWeb\obj\Debug\OrderSystemWeb.csprojAssemblyReference.cache
